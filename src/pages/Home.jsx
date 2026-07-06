@@ -6,28 +6,34 @@ import "../styles/home.css";
 function Home() {
     return (
         <Layout>
+            <div className="home">
 
-            {/* HERO GRANDE */}
-            <section className="hero-card">
-                <div className="hero-inner">
-                    <h1>Somos Logos </h1>
-                    <p className="hero-text">Esta propuesta de acompañamiento pedagógico se basa en un modelo integral donde el 70% del trabajo es presencial, con asesoramiento a equipos directivos y docentes, formación en territorio y seguimiento en aula. El 30% restante se apoya en recursos pedagógicos, plataforma digital y materiales de trabajo. Este esquema permite una implementación situada, progresiva y enfocada en la mejora real de las prácticas de enseñanza y los aprendizajes.</p>
-                </div>
-            </section>
+               <section className="hero-card">
+    <div className="hero-inner">
 
-            {/* CARDS PROYECTOS */}
-            <section className="cards-grid">
-                {cards.map((card) => (
-                    <Card
-                        key={card.id}
-                        titulo={card.titulo}
-                        descripcion={card.descripcion}
-                        ruta={card.ruta}
-                    />
-                ))}
-            </section>
+        <h1>Somos Logos</h1>
+        En Ediciones Logos acompañamos a las instituciones educativas con propuestas pedagógicas innovadoras que promueven el desarrollo integral de los estudiantes. Nuestro modelo combina un 70% de acompañamiento presencial —a través de asesoramiento, capacitaciones y seguimiento en cada colegio— con un 30% de recursos educativos, materiales impresos y herramientas digitales. De esta manera, construimos junto a docentes y directivos experiencias de aprendizaje significativas que fortalecen la enseñanza y la formación en valores.
 
-        </Layout >
+        <p className="hero-text">
+            ...
+        </p>
+
+        <div className="hero-programs">
+            {cards.map((card) => (
+                <Card
+                    key={card.id}
+                    titulo={card.titulo}
+                    descripcion={card.descripcion}
+                    ruta={card.ruta}
+                />
+            ))}
+        </div>
+
+    </div>
+</section>
+
+            </div>
+        </Layout>
     );
 }
 
