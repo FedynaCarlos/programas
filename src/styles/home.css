@@ -3,12 +3,12 @@
 ========================== */
 
 .home {
-    background-color: #000;
+    background-color: #023165;
     min-height: 100vh;
 }
 
 /* ==========================
-   HERO
+   HERO CARD
 ========================== */
 
 .hero-card {
@@ -22,10 +22,16 @@
     padding: 2rem;
 }
 
+/* ==========================
+   HERO INNER
+========================== */
+
 .hero-inner {
     width: 100%;
     max-width: 900px;
-    height: 420px;
+    min-height: 420px;
+
+    padding: 2rem;
 
     border-radius: 20px;
     background: white;
@@ -40,6 +46,10 @@
     text-align: center;
 }
 
+/* ==========================
+   TEXTO HERO
+========================== */
+
 .hero-text {
     max-width: 750px;
     margin-top: 1rem;
@@ -52,14 +62,50 @@
 }
 
 /* ==========================
-   PROGRAMAS
+   IMAGEN
+========================== */
+
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+
+    display: block;
+    margin: 2rem auto;
+
+    border-radius: 12px;
+}
+
+/* ==========================
+   PROGRAMAS (CARDS GRID)
 ========================== */
 
 .hero-programs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
+
     margin-top: 2rem;
+
+    justify-items: center;
+    align-items: start;
+}
+
+/* ==========================
+   WRAPPER DE CARD + LOGO
+========================== */
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-logo {
+    width: 55px;
+    height: auto;
+    object-fit: contain;
 }
 
 /* ==========================
@@ -74,7 +120,7 @@
 
     .hero-inner {
         width: 100%;
-        height: auto;
+        min-height: auto;
         padding: 2rem 1.5rem;
     }
 
@@ -83,8 +129,12 @@
         text-align: left;
     }
 
+    .hero-image {
+        max-width: 100%;
+        margin: 1.5rem auto;
+    }
+
     .hero-programs {
         grid-template-columns: 1fr;
-        gap: 1rem;
     }
 }

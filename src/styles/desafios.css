@@ -1,33 +1,128 @@
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+
 .desafios-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
 }
 
-/* CENTRO REAL DEL TEXTO */
+/* =========================
+   HERO + SECCIONES
+========================= */
+
 .section,
 .desafios-hero {
     width: 100%;
     max-width: 750px;
 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 
     text-align: left;
 }
 
-/* TITULO PRINCIPAL CENTRADO */
+/* =========================
+   HERO
+========================= */
+
 .desafios-hero h1 {
     text-align: center;
 }
 
-/* SUBTITULO CENTRADO */
 .desafios-hero p {
     text-align: center;
     opacity: 0.7;
 }
 
-/* LISTAS MÁS LIMPIAS */
+/* =========================
+   SECCIONES
+========================= */
+
+.section {
+    margin-bottom: 2rem;
+}
+
+/* listas más limpias */
 .section ul {
     padding-left: 1.2rem;
+}
+
+/* highlight */
+.section.highlight {
+    border-left: 4px solid #000;
+    padding-left: 1rem;
+}
+
+/* =========================
+   BOTÓN VOLVER HOME
+========================= */
+
+.back-button {
+    margin-top: 3rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* =========================
+   BOTÓN VOLVER ARRIBA
+========================= */
+
+.to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    padding: 10px 14px;
+    border-radius: 50%;
+    border: none;
+
+    background: black;
+    color: white;
+
+    cursor: pointer;
+
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.to-top.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.download-button {
+    display: inline-block;
+    margin: 2rem 0;
+    padding: 12px 20px;
+
+    background: black;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.download-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+    .desafios-container {
+        padding: 1rem;
+    }
+
+    .section,
+    .desafios-hero {
+        max-width: 100%;
+    }
 }
