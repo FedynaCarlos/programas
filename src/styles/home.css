@@ -13,13 +13,13 @@
 
 .hero-card {
     width: 100%;
-    min-height: 70vh;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /* ==========================
@@ -28,8 +28,7 @@
 
 .hero-inner {
     width: 100%;
-    max-width: 900px;
-    min-height: 420px;
+    min-height: 95vh;
 
     padding: 2rem;
 
@@ -39,7 +38,6 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     box-shadow: var(--shadow);
@@ -47,14 +45,29 @@
 }
 
 /* ==========================
+   TITULOS
+========================== */
+
+.hero-inner h1 {
+    margin-bottom: 0.5rem;
+}
+
+.hero-inner h2 {
+    width: 90%;
+    
+}
+
+/* ==========================
    TEXTO HERO
 ========================== */
 
 .hero-text {
-    max-width: 750px;
-    margin-top: 1rem;
+    max-width: 900px;
 
-    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
     line-height: 1.7;
 
     font-size: 18px;
@@ -67,7 +80,7 @@
 
 .hero-image {
     width: 100%;
-    max-width: 800px;
+
     height: auto;
 
     display: block;
@@ -77,14 +90,16 @@
 }
 
 /* ==========================
-   PROGRAMAS (CARDS GRID)
+   PROGRAMAS
 ========================== */
 
 .hero-programs {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    width: 100%;
 
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+
+    gap: 1.5rem;
     margin-top: 2rem;
 
     justify-items: center;
@@ -92,36 +107,82 @@
 }
 
 /* ==========================
-   WRAPPER DE CARD + LOGO
+   CARD + LOGO
 ========================== */
 
 .card-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 
+/* Logo base */
+
 .card-logo {
-    width: 55px;
-    height: auto;
     object-fit: contain;
+}
+
+/* Piensa Infinito */
+
+.card-1 .card-logo {
+    width: 90px;
+    height: 90px;
+}
+
+/* Bambú */
+
+.card-2 .card-logo {
+    width: 110px;
+    height: 90px;
+}
+
+/* Desafíos */
+
+.card-3 .card-logo {
+    width: 85px;
+    height: 90px;
+}
+
+/* Religión */
+
+.card-4 .card-logo {
+    width: 120px;
+    height: 90px;
+}
+.hero-text {
+    width: 100%;
+    max-width: none;
+
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
+    line-height: 1.7;
+
+    font-size: 18px;
+    color: var(--text);
 }
 
 /* ==========================
    RESPONSIVE
 ========================== */
 
+@media (max-width: 992px) {
+    .hero-programs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
 
     .hero-card {
-        padding: 1rem;
+        padding: 0.75rem;
     }
 
     .hero-inner {
-        width: 100%;
         min-height: auto;
-        padding: 2rem 1.5rem;
+        padding: 1.5rem;
     }
 
     .hero-text {

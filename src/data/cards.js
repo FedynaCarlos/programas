@@ -1,8 +1,8 @@
 const cards = [
   {
     id: 1,
-    titulo: "Piensa Infinito",
-    descripcion: "Matemática singapur.",
+    titulo: "Matemática Singapur",
+    descripcion: "",
     ruta: "/piensa-infinito",
     logo: "/images/piensa.jpg",
   },
@@ -11,21 +11,21 @@ const cards = [
     titulo: "Bambú",
     descripcion: "Comprensión lectora.",
     ruta: "/bambu",
-    logo: "/images/bambu.jpeg",
+    logo: "/images/bambu.png",
   },
   {
     id: 3,
     titulo: "Desafíos",
     descripcion: "Programa de ESI.",
     ruta: "/desafios",
-    logo: "/images/desafios.jpg",
+    logo: "/images/desafios.png",
   },
   {
     id: 4,
     titulo: "Religión",
     descripcion: "Formación integral.",
     ruta: "/religion",
-    logo: "/images/religion.PNG",
+    logo: "/images/casals.png",
   },
 ];
 
