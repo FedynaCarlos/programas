@@ -11,11 +11,13 @@ function Home() {
                 <section className="hero-card">
                     <div className="hero-inner">
 
-                        <h1>Somos Logos</h1>
+                        <h1>Acompañamiento institucional</h1>
+                        <h2>Un mismo plan de acompañamiento transversal a los 4 programas</h2>
 
                         <p className="hero-text">
-                            En Ediciones Logos acompañamos a las instituciones educativas con propuestas pedagógicas innovadoras...
-                        </p>
+                           Un recorrido ordenado y sostenido para implementar cada propuesta
+de acuerdo con la realidad de la institución.
+</p>
 
                         <img
                             src="/images/acompania.PNG"
