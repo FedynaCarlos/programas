@@ -32,7 +32,7 @@ function ProjectPage({ children }) {
                 {children}
 
                 <Link to="/" className="back-button">
-                    ← Volver al inicio
+                    ← Volver
                 </Link>
 
                 <button

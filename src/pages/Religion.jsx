@@ -26,7 +26,7 @@ function Religion() {
                 </p>
 
                 <h1 className="program-title">
-                    Caminos de Vida
+                    Serafín, Contigo y Caminos de Vida
                 </h1>
 
                 <p className="program-description">
