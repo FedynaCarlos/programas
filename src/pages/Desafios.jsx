@@ -1,106 +1,90 @@
 import ProjectPage from "../components/ProjectPage";
-
-import "../styles/desafios.css";
+import "../styles/programPage.css";
 
 function Desafios() {
     return (
         <ProjectPage>
 
-            <section id="presentacion" className="section">
-                <h2>Presentación General</h2>
+            <section className="program-page">
 
-                <p>
-                    Esta propuesta integral de acompañamiento en Educación
-                    Afectivo-Sexual (ESI) está diseñada para fortalecer el
-                    trabajo conjunto entre equipos directivos y familias.
-                </p>
-            </section>
+                <header className="program-header">
 
-            <section id="implementacion" className="section">
-                <h2>Sugerencia de Implementación</h2>
+                    <img
+                        src="/images/logos.png"
+                        alt="Logos"
+                    />
 
-                <p className="quote">
-                    “Cambio cultural sostenido en el tiempo”
-                </p>
+                    <img
+                        src="/images/desafios.png"
+                        alt="Desafíos"
+                    />
 
-                <ul>
-                    <li>Año 1: Escucha institucional</li>
-                    <li>Año 2: Consolidación de prácticas</li>
-                    <li>Año 3: Evaluación institucional</li>
-                </ul>
-            </section>
+                </header>
 
-            <section id="diagnostico" className="section">
-                <h2>Diagnóstico Institucional</h2>
-
-                <p className="quote">
-                    “Escuchar antes de intervenir”
+                <p className="program-category">
+                    Educación Afectivo-Sexual Integral
                 </p>
 
-                <ul>
-                    <li>Entrevista a directivos</li>
-                    <li>Ficha técnica ESI</li>
-                    <li>Formulario docente</li>
-                </ul>
-            </section>
+                <h1 className="program-title">
+                    Desafíos
+                </h1>
 
-            <section id="formacion" className="section">
-                <h2>Plan de Formación Docente</h2>
+                <p className="program-description">
+                    Una propuesta integral para acompañar a estudiantes,
+                    docentes y familias en la construcción de vínculos sanos,
+                    el desarrollo personal y la formación en valores.
+                </p>
 
-                <ul>
-                    <li>7 encuentros formativos</li>
-                    <li>Modalidad presencial y virtual</li>
-                    <li>Enfoque situado</li>
-                </ul>
-            </section>
+                <div className="program-purpose">
+                    <strong>Propósito</strong>
 
-            <section id="familias" className="section">
-                <h2>Ciclo para Familias</h2>
+                    <p>
+                        Promover una educación afectivo-sexual situada,
+                        respetuosa de la identidad institucional y orientada
+                        al desarrollo integral de niños, niñas y adolescentes.
+                    </p>
+                </div>
 
-                <ul>
-                    <li>¿Qué es la ESI?</li>
-                    <li>Acompañamiento en casa</li>
-                </ul>
-            </section>
+                <h2>Componentes del programa</h2>
 
-            <section id="comunidad" className="section">
-                <h2>Comunidad Desafíos</h2>
+                <div className="program-components">
 
-                <ul>
-                    <li>Webinars mensuales</li>
-                    <li>Cursos autogestionados</li>
-                </ul>
-            </section>
+                    <div className="component-card">
+                        <h3>Material para estudiantes</h3>
 
-            <section id="recursos" className="section">
-                <h2>Recursos Adicionales</h2>
+                        <p>
+                            Secuencias didácticas, actividades y recursos para
+                            trabajar identidad, emociones, vínculos, ciudadanía
+                            digital y proyecto de vida.
+                        </p>
+                    </div>
 
-                <ul>
-                    <li>Libro del alumno</li>
-                    <li>Libro del docente</li>
-                    <li>Plataforma virtual</li>
-                </ul>
-            </section>
+                    <div className="component-card">
+                        <h3>Formación docente</h3>
 
-            <section id="valor" className="section highlight">
-                <h2>Valor Institucional</h2>
+                        <p>
+                            Capacitación y acompañamiento para integrar la ESI
+                            desde una perspectiva pedagógica e institucional.
+                        </p>
+                    </div>
 
-                <ul>
-                    <li>Escucha activa</li>
-                    <li>Identidad institucional</li>
-                    <li>Formación situada</li>
-                </ul>
+                    <div className="component-card">
+                        <h3>Trabajo con familias</h3>
 
-                <iframe
-                    src="/pdfs/desafios.pdf"
-                    width="100%"
-                    height="600"
-                    title="PDF Desafíos"
-                    style={{
-                        border: "none",
-                        marginTop: "20px",
-                    }}
-                />
+                        <p>
+                            Encuentros, materiales y espacios de diálogo que
+                            fortalecen la alianza entre escuela y familia.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div className="program-acompanamiento">
+                    Acompañamiento institucional transversal: escucha,
+                    planificación, organización y seguimiento durante todo
+                    el ciclo lectivo.
+                </div>
+
             </section>
 
         </ProjectPage>

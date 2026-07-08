@@ -9,7 +9,7 @@ function Card({ titulo, descripcion, ruta }) {
             <p>{descripcion}</p>
 
            
-                <button>Ver más</button>
+                <button>Ver</button>
             </Link>
         </div>
     );

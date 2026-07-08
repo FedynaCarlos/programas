@@ -50,6 +50,7 @@
 
 .hero-inner h1 {
     margin-bottom: 0.5rem;
+    
 }
 
 .hero-inner h2 {
@@ -129,19 +130,29 @@
     width: 90px;
     height: 90px;
 }
+.card-1 button{
+    background-color:  #e53935;
+}
 
 /* Bambú */
 
 .card-2 .card-logo {
     width: 110px;
     height: 90px;
+} 
+.card-2 button{
+    background-color: #69b42e;
 }
+
 
 /* Desafíos */
 
 .card-3 .card-logo {
     width: 85px;
     height: 90px;
+}
+.card-3 button{
+    background-color: #f39c12;
 }
 
 /* Religión */
@@ -150,6 +161,11 @@
     width: 120px;
     height: 90px;
 }
+.card-4 button{
+    background-color: #0097a7 ;
+}
+
+
 .hero-text {
     width: 100%;
     max-width: none;
