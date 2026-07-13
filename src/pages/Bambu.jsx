@@ -10,10 +10,10 @@ function Bambu() {
 
                 <header className="program-header">
 
-                    <img
+                    {/* <img
                         src="/images/logos.png"
                         alt="Logos"
-                    />
+                    /> */}
 
                     <img
                         src="/images/bambu.png"
@@ -22,62 +22,62 @@ function Bambu() {
 
                 </header>
 
-                <p className="program-category">
-                    Comprensión lectora
-                </p>
-
                 <h1 className="program-title">
-                    Proyecto Bambú Avanza
+                    Comprensión lectora
                 </h1>
 
-               <div className="program-purpose">
-    <strong>Propósito</strong>
+                {/* <h1 className="program-title">
+                    Proyecto Bambú Avanza
+                </h1> */}
 
-    <p>
-        Fortalecer lectores competentes, autónomos y motivados,
-        promoviendo la comprensión lectora, el disfrute por la lectura
-        y el trabajo sistemático con habilidades lectoras.
-    </p>
-</div>
+                <div className="program-purpose">
+                    <strong>Propósito</strong>
 
-<h2>Componentes del programa</h2>
+                    <p>
+                        Fortalecer lectores competentes, autónomos y motivados,
+                        promoviendo la comprensión lectora, el disfrute por la lectura
+                        y el trabajo sistemático con habilidades lectoras.
+                    </p>
+                </div>
 
-<div className="program-components">
+                <h2>Componentes del programa</h2>
 
-    <div className="component-card">
-        <h3>Materiales e itinerario lector</h3>
+                <div className="program-components">
 
-        <p>
-            Propuesta de lectura y recursos para trabajar textos,
-            habilidades y estrategias de comprensión.
-        </p>
-    </div>
+                    <div className="component-card">
+                        <h3>Materiales e itinerario lector</h3>
 
-    <div className="component-card">
-        <h3>Formación docente</h3>
+                        <p>
+                            Propuesta de lectura y recursos para trabajar textos,
+                            habilidades y estrategias de comprensión.
+                        </p>
+                    </div>
 
-        <p>
-            Encuentros para planificar el recorrido lector,
-            orientar prácticas de aula y unificar criterios.
-        </p>
-    </div>
+                    <div className="component-card">
+                        <h3>Formación docente</h3>
 
-    <div className="component-card">
-        <h3>Diagnóstico y seguimiento</h3>
+                        <p>
+                            Encuentros para planificar el recorrido lector,
+                            orientar prácticas de aula y unificar criterios.
+                        </p>
+                    </div>
 
-        <p>
-            Instrumentos para relevar avances, acompañar trayectorias
-            y tomar decisiones pedagógicas.
-        </p>
-    </div>
+                    <div className="component-card">
+                        <h3>Diagnóstico y seguimiento</h3>
 
-</div>
+                        <p>
+                            Instrumentos para relevar avances, acompañar trayectorias
+                            y tomar decisiones pedagógicas.
+                        </p>
+                    </div>
 
-<div className="program-acompanamiento">
-    Acompañamiento institucional transversal:
-    escucha, planificación, organización y seguimiento
-    durante todo el ciclo lectivo.
-</div>
+                </div>
+
+                <div className="program-acompanamiento">
+                    Acompañamiento institucional transversal:
+                    escucha, planificación, organización y seguimiento
+                    durante todo el ciclo lectivo.
+                </div>
 
             </section>
 

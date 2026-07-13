@@ -9,10 +9,10 @@ function Religion() {
 
                 <header className="program-header">
 
-                    <img
+                    {/* <img
                         src="/images/logos.png"
                         alt="Logos"
-                    />
+                    /> */}
 
                     <img
                         src="/images/casals.png"
@@ -21,12 +21,12 @@ function Religion() {
 
                 </header>
 
-                <p className="program-category">
+                {/* <p className="program-category">
                     Educación Religiosa
-                </p>
+                </p> */}
 
                 <h1 className="program-title">
-                    Serafín, Contigo y Caminos de Vida
+                    Educación Religiosa
                 </h1>
 
                 <p className="program-description">

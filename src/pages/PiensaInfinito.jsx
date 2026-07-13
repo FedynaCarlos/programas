@@ -9,10 +9,10 @@ function PiensaInfinito() {
 
                 <header className="program-header">
 
-                    <img
+                    {/* <img
                         src="/images/logos.png"
                         alt="Logos"
-                    />
+                    /> */}
 
                     <img
                         src="/images/piensa.jpg"
@@ -21,13 +21,13 @@ function PiensaInfinito() {
 
                 </header>
 
-                <p className="program-category">
-                    Matemática · Método Singapur
-                </p>
-
                 <h1 className="program-title">
-                    Piensa Infinito
+                    Matemática · Método Singapur
                 </h1>
+
+                {/* <h1 className="program-title">
+                    Piensa Infinito
+                </h1> */}
 
                 <p className="program-description">
                     Desarrollo del pensamiento matemático a través de la resolución de problemas, la comprensión conceptual y el aprendizaje significativo.

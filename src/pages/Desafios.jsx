@@ -9,10 +9,10 @@ function Desafios() {
 
                 <header className="program-header">
 
-                    <img
+                    {/* <img
                         src="/images/logos.png"
                         alt="Logos"
-                    />
+                    /> */}
 
                     <img
                         src="/images/desafios.png"
@@ -21,13 +21,13 @@ function Desafios() {
 
                 </header>
 
-                <p className="program-category">
-                    Educación Afectivo-Sexual Integral
-                </p>
-
                 <h1 className="program-title">
-                    Desafíos
+                    Educación Afectivo-Sexual Integral
                 </h1>
+
+                {/* <h1 className="program-title">
+                    Desafíos
+                </h1> */}
 
                 <p className="program-description">
                     Una propuesta integral para acompañar a estudiantes,
